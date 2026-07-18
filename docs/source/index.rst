@@ -3,22 +3,29 @@ Introducción a la Inteligencia Artificial
 
 Bienvenido al portal del curso **Introducción a la Inteligencia Artificial**.
 
-En este espacio se publicarán los contenidos, talleres, ejercicios,
-recursos y orientaciones del curso.
+En este sitio se publicarán los contenidos, talleres, recursos y orientaciones
+necesarias para el desarrollo de las actividades académicas.
 
-Información inicial
--------------------
+Información del curso
+---------------------
 
 :Docente: Juan Montiel
-:Modalidad: Presencial
 :Periodo académico: 2026
+:Área: Inteligencia Artificial
+:Modalidad: Presencial
 
 .. note::
 
-   Este sitio se encuentra en construcción. El contenido será actualizado
-   progresivamente durante el curso.
+   El contenido de este portal será actualizado progresivamente durante el curso.
 
-Contenido del curso
--------------------
+Navegación
+----------
 
-Próximamente se publicarán las unidades, los talleres y los recursos.
+.. toctree::
+   :maxdepth: 2
+   :caption: Contenido del curso
+
+   informacion/index
+   unidades/index
+   talleres/index
+   recursos/index
