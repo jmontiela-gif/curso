@@ -1,17 +1,24 @@
-# Entorno virtual
-.venv/
-
-# Archivos generados por Sphinx
-docs/build/
-
-# Caché de Python
+# Python
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
 
-# Archivos del editor
+# Entorno virtual
+.venv/
+venv/
+
+# Sphinx
+docs/build/
+
+# VS Code
 .vscode/
+
+# PyCharm
 .idea/
 
-# Archivos del sistema operativo
-.DS_Store
+# Windows
 Thumbs.db
+
+# macOS
+.DS_Store
