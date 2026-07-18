@@ -1,28 +1,18 @@
 # Configuration file for the Sphinx documentation builder.
-#
-# For the full list of built-in configuration values, see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-# -- Project information -----------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
-
-project = 'Introducción a la Inteligencia Artificial'
-copyright = '2026, JSM'
-author = 'JSM'
-release = '2026'
-
-# -- General configuration ---------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
+project = "Introducción a la Inteligencia Artificial"
+copyright = "2026, Juan Montiel"
+author = "Juan Montiel"
+release = "2026"
 
 extensions = []
 
-templates_path = ['_templates']
+templates_path = ["_templates"]
 exclude_patterns = []
 
-language = 'es'
+language = "es"
 
-# -- Options for HTML output -------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
+html_theme = "furo"
+html_title = "Introducción a la Inteligencia Artificial"
 
-html_theme = 'alabaster'
-html_static_path = ['_static']
+html_static_path = ["_static"]

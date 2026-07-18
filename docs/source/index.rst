@@ -1,17 +1,24 @@
-.. Introducción a la Inteligencia Artificial documentation master file, created by
-   sphinx-quickstart on Sat Jul 18 15:48:52 2026.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Introducción a la Inteligencia Artificial
+=========================================
 
-Introducción a la Inteligencia Artificial documentation
-=======================================================
+Bienvenido al portal del curso **Introducción a la Inteligencia Artificial**.
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+En este espacio se publicarán los contenidos, talleres, ejercicios,
+recursos y orientaciones del curso.
 
+Información inicial
+-------------------
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+:Docente: Juan Montiel
+:Modalidad: Presencial
+:Periodo académico: 2026
 
+.. note::
+
+   Este sitio se encuentra en construcción. El contenido será actualizado
+   progresivamente durante el curso.
+
+Contenido del curso
+-------------------
+
+Próximamente se publicarán las unidades, los talleres y los recursos.
