@@ -119,3 +119,16 @@ estudiante.
 
    Al aceptar la actividad, GitHub Classroom creará automáticamente un
    repositorio asociado a su cuenta.
+
+Material de apoyo
+-----------------
+
+Descargue el documento guía antes de iniciar el desarrollo del taller.
+
+.. raw:: html
+
+   <a class="download-button"
+      href="../_static/downloads/taller_guia_sistemas_expertos.docx"
+      download>
+      Descargar taller guía en Word
+   </a>
