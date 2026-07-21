@@ -97,23 +97,6 @@ Desarrollo del taller
 
    Evaluar diferentes combinaciones de entrada y analizar la salida obtenida.
 
-Entregables
------------
-
-* Definición del problema.
-* Variables de entrada y salida.
-* Gráficas de funciones de pertenencia.
-* Base de reglas.
-* Código fuente.
-* Pruebas de funcionamiento.
-* Análisis de resultados.
-
-.. important::
-
-   No basta con que el programa produzca una salida. El estudiante deberá
-   explicar cómo las funciones de pertenencia y las reglas influyen en la
-   decisión final.
-
 Acceso al taller
 ----------------
 

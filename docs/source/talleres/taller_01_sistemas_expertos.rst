@@ -67,22 +67,6 @@ Estructura del taller
 
    Comprobar el funcionamiento mediante pruebas automatizadas.
 
-Entregables
------------
-
-* Código fuente.
-* Archivo de pruebas.
-* Documento README.
-* Descripción de hechos y reglas.
-* Evidencia de ejecución.
-* Reflexión sobre las decisiones del sistema.
-
-.. note::
-
-   En esta sección incorporaremos posteriormente el enunciado completo del
-   Taller 1 que ya tienes desarrollado.
-
-
 Acceso al taller
 ----------------
 

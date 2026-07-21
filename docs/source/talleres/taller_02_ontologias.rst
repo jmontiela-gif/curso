@@ -75,22 +75,6 @@ Resultado esperado
 El estudiante deberá entregar un modelo ontológico acompañado de una
 descripción de las decisiones de diseño tomadas durante su construcción.
 
-Entregables
------------
-
-* Descripción del dominio.
-* Lista de conceptos y relaciones.
-* Diagrama conceptual.
-* Archivo RDF o RDFS.
-* Consultas o ejemplos de uso.
-* Documento de justificación.
-
-.. tip::
-
-   El modelo debe ser comprensible tanto para una persona como para una
-   herramienta computacional.
-
-
 
 Acceso al taller
 ----------------
