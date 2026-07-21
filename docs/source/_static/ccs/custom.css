@@ -1,0 +1,311 @@
+/* =========================================================
+   Portal de Introducción a la Inteligencia Artificial
+   Identidad visual personalizada
+   ========================================================= */
+
+:root {
+    --ia-blue: #3b82f6;
+    --ia-cyan: #22d3ee;
+    --ia-violet: #8b5cf6;
+    --ia-orange: #f59e0b;
+    --ia-green: #10b981;
+    --ia-surface: rgba(15, 23, 42, 0.72);
+    --ia-border: rgba(148, 163, 184, 0.22);
+}
+
+/* Fondo principal */
+
+body {
+    letter-spacing: 0.005em;
+}
+
+.main {
+    background:
+        radial-gradient(
+            circle at 82% 12%,
+            rgba(59, 130, 246, 0.12),
+            transparent 30rem
+        ),
+        radial-gradient(
+            circle at 20% 85%,
+            rgba(139, 92, 246, 0.08),
+            transparent 28rem
+        ),
+        var(--color-background-primary);
+}
+
+/* Área de contenido */
+
+.content {
+    max-width: 980px;
+}
+
+article {
+    line-height: 1.75;
+}
+
+/* Títulos */
+
+article h1 {
+    font-size: clamp(2.4rem, 5vw, 4.2rem);
+    line-height: 1.05;
+    letter-spacing: -0.05em;
+    margin-bottom: 1.4rem;
+}
+
+article h2 {
+    margin-top: 3rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid var(--ia-border);
+}
+
+article h3 {
+    color: var(--color-brand-content);
+}
+
+/* Texto principal de portada */
+
+.hero-subtitle {
+    max-width: 760px;
+    font-size: 1.35rem;
+    line-height: 1.7;
+    color: var(--color-foreground-secondary);
+    margin-bottom: 1rem;
+}
+
+.hero-actions {
+    display: inline-block;
+    padding: 0.55rem 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid rgba(34, 211, 238, 0.35);
+    border-radius: 999px;
+    background: rgba(34, 211, 238, 0.08);
+    color: var(--color-brand-content);
+    font-size: 0.9rem;
+}
+
+/* Tarjetas de talleres */
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.2rem;
+    margin: 2rem 0 3rem;
+}
+
+.course-card {
+    position: relative;
+    min-height: 280px;
+    padding: 1.6rem;
+    border: 1px solid var(--ia-border);
+    border-radius: 18px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.04),
+            rgba(255, 255, 255, 0.01)
+        );
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 24px 55px rgba(0, 0, 0, 0.18);
+}
+
+.course-card > p:first-child {
+    margin: 0 0 1.5rem;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 800;
+    opacity: 0.35;
+}
+
+.course-card strong {
+    font-size: 1.2rem;
+}
+
+.course-card a {
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.card-expertos {
+    border-top: 4px solid var(--ia-blue);
+}
+
+.card-expertos:hover {
+    border-color: var(--ia-blue);
+}
+
+.card-ontologias {
+    border-top: 4px solid var(--ia-violet);
+}
+
+.card-ontologias:hover {
+    border-color: var(--ia-violet);
+}
+
+.card-difusa {
+    border-top: 4px solid var(--ia-orange);
+}
+
+.card-difusa:hover {
+    border-color: var(--ia-orange);
+}
+
+/* Etiqueta superior en los talleres */
+
+.workshop-label {
+    display: inline-block;
+    padding: 0.4rem 0.85rem;
+    margin-bottom: 1rem;
+    border-radius: 999px;
+    background: rgba(59, 130, 246, 0.12);
+    border: 1px solid rgba(59, 130, 246, 0.28);
+    color: var(--color-brand-content);
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+}
+
+/* Bloques de pasos */
+
+.workshop-steps {
+    padding: 1.5rem 1.8rem;
+    margin: 1.5rem 0;
+    border: 1px solid var(--ia-border);
+    border-radius: 16px;
+    background: rgba(148, 163, 184, 0.045);
+}
+
+.workshop-steps strong {
+    color: var(--color-brand-content);
+}
+
+.workshop-steps p {
+    margin-bottom: 0.5rem;
+}
+
+/* Flujo de lógica difusa */
+
+.fuzzy-flow {
+    max-width: 520px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 18px;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+    background:
+        linear-gradient(
+            180deg,
+            rgba(245, 158, 11, 0.09),
+            rgba(139, 92, 246, 0.05)
+        );
+}
+
+.fuzzy-flow strong {
+    display: block;
+    padding: 0.65rem;
+    border-radius: 9px;
+    background: rgba(255, 255, 255, 0.035);
+}
+
+/* Menú lateral */
+
+.sidebar-drawer {
+    border-right: 1px solid var(--ia-border);
+    background:
+        linear-gradient(
+            180deg,
+            rgba(15, 23, 42, 0.045),
+            transparent
+        );
+}
+
+.sidebar-brand-text {
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+}
+
+.sidebar-tree .caption {
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+}
+
+.sidebar-tree a {
+    border-radius: 8px;
+    margin: 2px 6px;
+    transition:
+        background-color 0.15s ease,
+        transform 0.15s ease;
+}
+
+.sidebar-tree a:hover {
+    transform: translateX(3px);
+}
+
+/* Tablas */
+
+.learning-table {
+    width: 100%;
+    border: 1px solid var(--ia-border);
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.learning-table thead {
+    background: rgba(59, 130, 246, 0.12);
+}
+
+/* Avisos */
+
+.admonition {
+    border: 1px solid var(--ia-border);
+    border-left: 5px solid var(--color-brand-primary);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+}
+
+/* Código */
+
+pre {
+    border-radius: 12px;
+}
+
+/* Diseño adaptable */
+
+@media screen and (max-width: 900px) {
+    .course-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .course-card {
+        min-height: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    article h1 {
+        font-size: 2.35rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .content {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
