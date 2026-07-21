@@ -113,3 +113,26 @@ Entregables
    No basta con que el programa produzca una salida. El estudiante deberá
    explicar cómo las funciones de pertenencia y las reglas influyen en la
    decisión final.
+
+Acceso al taller
+----------------
+
+Para iniciar el taller, ingrese al enlace de GitHub Classroom:
+
+Cada taller cuenta con un enlace de asignación en GitHub Classroom.
+Al ingresar, se creará automáticamente un repositorio individual para el
+estudiante.
+
+.. raw:: html
+
+   <a class="classroom-button"
+      href="https://classroom.github.com/a/W0qWRIPI"
+      target="_blank"
+      rel="noopener noreferrer">
+      Abrir Taller 3 en GitHub Classroom
+   </a>
+
+.. note::
+
+   Al aceptar la actividad, GitHub Classroom creará automáticamente un
+   repositorio asociado a su cuenta.

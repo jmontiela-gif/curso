@@ -89,3 +89,28 @@ Entregables
 
    El modelo debe ser comprensible tanto para una persona como para una
    herramienta computacional.
+
+
+
+Acceso al taller
+----------------
+
+Para iniciar el taller, ingrese al enlace de GitHub Classroom:
+
+Cada taller cuenta con un enlace de asignación en GitHub Classroom.
+Al ingresar, se creará automáticamente un repositorio individual para el
+estudiante.
+
+.. raw:: html
+
+   <a class="classroom-button"
+      href="https://classroom.github.com/a/uTTymlje"
+      target="_blank"
+      rel="noopener noreferrer">
+      Abrir Taller 2 en GitHub Classroom
+   </a>
+
+.. note::
+
+   Al aceptar la actividad, GitHub Classroom creará automáticamente un
+   repositorio asociado a su cuenta.

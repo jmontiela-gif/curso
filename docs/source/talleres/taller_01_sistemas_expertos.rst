@@ -40,6 +40,7 @@ El material del curso presenta los sistemas expertos como programas que
 simulan el razonamiento y la toma de decisiones de un experto humano,
 utilizando hechos, reglas e inferencias sobre un dominio específico.
 
+
 Estructura del taller
 ---------------------
 
@@ -80,3 +81,27 @@ Entregables
 
    En esta sección incorporaremos posteriormente el enunciado completo del
    Taller 1 que ya tienes desarrollado.
+
+
+Acceso al taller
+----------------
+
+Para iniciar el taller, ingrese al enlace de GitHub Classroom:
+
+Cada taller cuenta con un enlace de asignación en GitHub Classroom.
+Al ingresar, se creará automáticamente un repositorio individual para el
+estudiante.
+
+.. raw:: html
+
+   <a class="classroom-button"
+      href="https://classroom.github.com/a/aqJBFsiY"
+      target="_blank"
+      rel="noopener noreferrer">
+      Abrir Taller 1 en GitHub Classroom
+   </a>
+
+.. note::
+
+   Al aceptar la actividad, GitHub Classroom creará automáticamente un
+   repositorio asociado a su cuenta.
